@@ -1,18 +1,31 @@
 # This SED file's objective is automatically translation linux mint Xfce new release 
 # This Script author is SAWAKAZE(souichirho@gmail.com)
 
+# Release Message (Common)
+s/released!/版がリリースされました。/g
 
-# Release Message 
-s/Linux Mint 16 “Petra” Xfce released!/Linux Mint 16 "Petra" Xfce版がリリースされました。/g
-s/Linux Mint 16 “Petra” Xfce RC released!/Linux Mint 16 "Petra" Xfce RC 版がリリースされました。/g
-s/The team is proud to announce the release of Linux Mint 16 “Petra” Xfce RC./開発チームは Linux Mint 16 “Petra” Xfce RC 版のリリースについて発表します!/g
-s/The team is proud to announce the release of Linux Mint 16 “Petra” Xfce./開発チームは Linux Mint 16 “Petra” Xfce 版のリリースについて発表します!/g
+# Release Message (17.1)
+# MATE
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” MATE RC./開発チームは Linux Mint 17.1 “Rebecca” MATE RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” MATE./開発チームは Linux Mint 17.1 “Rebecca” MATE 版のリリースについて発表します!/g
 
-# Xfce Description
-s/Xfce is a lightweight desktop environment which aims to be fast and low on system resources, while still being visually appealing and user friendly. /Xfce は高速でシステムリソースを大きく消費しないことを目標にしている軽量のデスクトップ環境です。それにもかかわらず、Xfce は見た目の魅力とユーザの利便性を失っていません。/g
-s/This edition features all the improvements from the latest Linux Mint release on top of an Xfce 4.10 desktop./Xfce 版は Xfce 4.10 に加えて最新の LinuxMint リリースになされた全ての改善が反映されています。/g
+# Cinnamon
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” Cinnamon RC./開発チームは Linux Mint 17.1 “Rebecca” Cinnamon RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” Cinnamon./開発チームは Linux Mint 17.1 “Rebecca” Cinnamon 版のリリースについて発表します!/g
 
-# Linux Mint 16 Update
+# KDE
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” KDE RC./開発チームは Linux Mint 17.1 “Rebecca” KDE RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” KDE./開発チームは Linux Mint 17.1 “Rebecca” KDE 版のリリースについて発表します!/g
+
+# Xfce
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” Xfce RC./開発チームは Linux Mint 17.1 “Rebecca” Xfce RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of Linux Mint 17.1 “Rebecca” Xfce./開発チームは Linux Mint 17.1 “Rebecca” Xfce 版のリリースについて発表します!/g
+
+# Linux Mint 17 特徴(17/17.1 共用)
+
+s/is a long term support release which will be supported until 2019. It comes with updated software and brings refinements and many new features to make your desktop even more comfortable to use./は長期サポートリリースで、2019 年までサポートされます。 このバージョンでは快適に使用していただけるために、多くの更新や改善を受けることができます。/g
+
+# 更新内容
 s/New features at a glance/一目で分かる新機能/g
 s/Login Screen/ログイン画面/g
 s/USB Stick support/USB スティックサポート/g
@@ -22,6 +35,11 @@ s/System Improvements/システムの向上/g
 s/Artwork Improvements/アートワークの向上/g
 s/Main Components/主な構成部分/g
 s/For a complete overview and to see screenshots of the new features, visit:/全ての概略と新しい機能のスクリーンショットを見るには、以下のページをご 覧ください:/g
+s/Update Manager/アップデートマネージャ/g
+s/Language Settings/言語設定/g
+s/Other Improvements/その他の改善/g
+s/LTS Strategy/LTS 戦略/g
+s/Out of the box support for Compiz/インストール直後からCompiz が使用可能/g
 
 # Important info
 s/Important info:/重要な情報:/g
@@ -32,16 +50,24 @@ s/PAE required for 32-bit ISOs/32 ビット ISO でも PAE が必要/g
 s/mint4win/mint4win/g
 s/Make sure to read the/このリリースに関する重要な情報や既知の問題を把握するために/g
 s/to be aware of important info or known issues related to this release./を必ず見てください。/g
+s/Keybindings migration/キーバインディングの移行/g
+s/DVD Playback with VLC/VLC のDVD プレイバック/g
+s/Solving freezes with some NVIDIA GeForce GPUs/NVIDIA GeForce GPUsの環境で固まってしまう件の解決/g
+s/Booting with non-PAE CPUs/non-PAE のCPUでのブート/g
+s/Issues with Skype/スカイプについての問題/g
+s/Other issues/その他の問題/g
 
 # System required
 s/System requirements:/システム要件:/g
 s/x86 processor/x86 プロセッサ/g 
 s/Linux Mint 64-bit requires a 64-bit processor./Linux Mint 64-bit には 64 ビットプロセッサが必要です。/g
-s/Linux Mint 32-bit works on both 32-bit and 64-bit processors)./Linux Mint 32-bit は 32 ビットと 64 ビットプロセッサの両方で動きます)。/g
+s/Linux Mint 32-bit works on both 32-bit and 64-bit processors)./Linux Mint 32-bit は 32 ビットと 64 ビットプロセッサの両方で動きます)/g
 s/384 MB RAM (1GB recommended for a comfortable usage)./384 メガバイトのメモリ/g
 s/5 GB of disk space/5 ギガバイトの空きディスク容量/g
 s/Graphics card capable of 800×600 resolution/800×600 の解像度を表示できるグラフィックカード/g
 s/DVD drive or USB port/DVD ドライブ又は USB ポート/g
+s/(1GB recommended for a comfortable usage)./ (快適に使用するためには1 GB 以上が推奨)/g
+s/recommended)./推奨)/g
 
 # bug report (RC)
 s/Bug reports:/バグ報告:/g
@@ -51,7 +77,7 @@ s/to follow the progress of the development team between the RC and the stable r
 s/Download:/ダウンロード:/g
 s/HTTP Mirrors for the 32-bit DVD ISO:/32-bit DVD ISO イメージの HTTP ミラー:/g
 s/HTTP Mirrors for the 64-bit DVD ISO:/64-bit DVD ISO イメージの HTTP ミラー:/g
-s/Md5 sum:/Md5 チェックサム:/g
+s/Md5 sum:/MD5 チェックサム:/g
 s/Enjoy!/お楽しみください!/g
 s/We look forward to receiving your feedback./開発チームはあなたからのご意見をお待ちしています。/g
 s/Thank you for using Linux Mint and have a lot of fun testing the release candidate!/Linux Mint のご利用ありがとうございます。リリース候補版のテストをお楽しみください!/g
@@ -104,16 +130,33 @@ s/Taiwan/台湾/g
 s/Ukraine/ウクライナ/g
 s/United Kingdom/イギリス/g 
 s/USA/アメリカ合衆国/g
+s/Colombia/コロンビア/g
+s/Denmark/デンマーク/g
+s/Ecuador/エクアドル/g
+s/Indonesia/インドネシア/g
+s/Kazakhstan/カザフスタン/g
+s/New Caledonia/フランス領ニューカレドニア/g
+s/Philippines/フィリピン/g
+s/Romania/ルーマニア/g
+s/Vietnam/ベトナム/g
+
 # 訳のし過ぎの補正
 s/Western オーストラリアn Internet Association/Western Australian Internet Association/g
 s/Tele グリーンランド/Tele Greenland/g
 s/イスラエル Internet Association/Israel Internet Association/g
+s/University of Science and Technology of 中国 Linux User Group/University of Science and Technology of China Linux User Group/g
+s/Southern 台湾 University of Science and Technology/Southern Taiwan University of Science and Technology/g
 
 s/Upgrade instructions/アップグレード方法/g
 s/Download/ダウンロード/g
 
 # # RC Revire Feedback 
-s/What’s new in Linux Mint 16 Xfce<\/a>“./What’s new in Linux Mint 16 Xfce<\/a>“。/g
+s/What’s new in Linux Mint 17.1 Xfce<\/a>“./What’s new in Linux Mint 17.1 Xfce<\/a>“。/g
 
 # Image Link Location
-s/16_Xfce_release_files\/thumb_xfce.png/http:\/\/www.linuxmint.com\/pictures\/screenshots\/petra\/thumb_xfce.png/g
+s/16_Xfce_release_files\/thumb_xfce.png/http:\/\/www.linuxmint.com\/pictures\/screenshots\/Rebecca\/thumb_xfce.png/g
+
+# Xfce Description
+s/Xfce is a lightweight desktop environment which aims to be fast and low on system resources, while still being visually appealing and user friendly. /Xfce は高速でシステムリソースを大きく消費しないことを目標にしている軽量のデスクトップ環境です。それにもかかわらず、Xfce は見た目の魅力とユーザの利便性を失っていません。/g
+s/This edition features all the improvements from the latest Linux Mint release on top of an Xfce 4.10 desktop./Xfce 版は Xfce 4.10 に加えて最新の LinuxMint リリースになされた全ての改善が反映されています。/g
+
