@@ -1,0 +1,119 @@
+# This SED file's objective is automatically translation linux mint Xfce new release 
+# This Script author is SAWAKAZE(souichirho@gmail.com)
+
+
+# Release Message 
+s/Linux Mint 16 “Petra” Xfce released!/Linux Mint 16 "Petra" Xfce版がリリースされました。/g
+s/Linux Mint 16 “Petra” Xfce RC released!/Linux Mint 16 "Petra" Xfce RC 版がリリースされました。/g
+s/The team is proud to announce the release of Linux Mint 16 “Petra” Xfce RC./開発チームは Linux Mint 16 “Petra” Xfce RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of Linux Mint 16 “Petra” Xfce./開発チームは Linux Mint 16 “Petra” Xfce 版のリリースについて発表します!/g
+
+# Xfce Description
+s/Xfce is a lightweight desktop environment which aims to be fast and low on system resources, while still being visually appealing and user friendly. /Xfce は高速でシステムリソースを大きく消費しないことを目標にしている軽量のデスクトップ環境です。それにもかかわらず、Xfce は見た目の魅力とユーザの利便性を失っていません。/g
+s/This edition features all the improvements from the latest Linux Mint release on top of an Xfce 4.10 desktop./Xfce 版は Xfce 4.10 に加えて最新の LinuxMint リリースになされた全ての改善が反映されています。/g
+
+# Linux Mint 16 Update
+s/New features at a glance/一目で分かる新機能/g
+s/Login Screen/ログイン画面/g
+s/USB Stick support/USB スティックサポート/g
+s/Performance improvements/パフォーマンス向上/g
+s/Software Manager/ソフトウェアマネージャー/g
+s/System Improvements/システムの向上/g
+s/Artwork Improvements/アートワークの向上/g
+s/Main Components/主な構成部分/g
+s/For a complete overview and to see screenshots of the new features, visit:/全ての概略と新しい機能のスクリーンショットを見るには、以下のページをご 覧ください:/g
+
+# Important info
+s/Important info:/重要な情報:/g
+s/Recommended packages and 32-bit libraries/推奨パッケージと 32 ビットライブラリ/g
+s/DVD playback/DVD プレイバック/g
+s/EFI Support/EFI サポート/g
+s/PAE required for 32-bit ISOs/32 ビット ISO でも PAE が必要/g
+s/mint4win/mint4win/g
+s/Make sure to read the/このリリースに関する重要な情報や既知の問題を把握するために/g
+s/to be aware of important info or known issues related to this release./を必ず見てください。/g
+
+# System required
+s/System requirements:/システム要件:/g
+s/x86 processor/x86 プロセッサ/g 
+s/Linux Mint 64-bit requires a 64-bit processor./Linux Mint 64-bit には 64 ビットプロセッサが必要です。/g
+s/Linux Mint 32-bit works on both 32-bit and 64-bit processors)./Linux Mint 32-bit は 32 ビットと 64 ビットプロセッサの両方で動きます)。/g
+s/384 MB RAM (1GB recommended for a comfortable usage)./384 メガバイトのメモリ/g
+s/5 GB of disk space/5 ギガバイトの空きディスク容量/g
+s/Graphics card capable of 800×600 resolution/800×600 の解像度を表示できるグラフィックカード/g
+s/DVD drive or USB port/DVD ドライブ又は USB ポート/g
+
+# bug report (RC)
+s/Bug reports:/バグ報告:/g
+s/Please report bugs below in the comment section of this blog./このブログの下のコメント欄にバグを報告して下さい。/g
+s/Please visit/RC版と安定版リリースの間の開発チームの進捗状況をフォローするには、 /g
+s/to follow the progress of the development team between the RC and the stable release./を見てください。/g
+s/Download:/ダウンロード:/g
+s/HTTP Mirrors for the 32-bit DVD ISO:/32-bit DVD ISO イメージの HTTP ミラー:/g
+s/HTTP Mirrors for the 64-bit DVD ISO:/64-bit DVD ISO イメージの HTTP ミラー:/g
+s/Md5 sum:/Md5 チェックサム:/g
+s/Enjoy!/お楽しみください!/g
+s/We look forward to receiving your feedback./開発チームはあなたからのご意見をお待ちしています。/g
+s/Thank you for using Linux Mint and have a lot of fun testing the release candidate!/Linux Mint のご利用ありがとうございます。リリース候補版のテストをお楽しみください!/g
+
+# Upgrade Note
+s/To upgrade from a previous version of Linux Mint follow/Linux Mint の以前のバージョンからアップグレードする場合は、/g
+s/these instructions<\/a>./リンク先<\/a>に書かれた方法に従ってください。/g
+s/To upgrade from the RC release follow/RC版からアップグレードする場合は、/g
+s/Thank you for using Linux Mint and have a lot of fun with this new release!/Linux Mint のご利用ありがとうございます。新しい Linux Mint をお楽しみください!/g
+s/To upgrade from the RC release simply apply any level 1 and 2 updates available in the Update Manager./RC版からアップグレードする場合はUpdate Manager のレベル1と2を有効にしてください。/g
+
+# mirror
+s/Argentina/アルゼンチン/g
+s/Australia/オーストラリア/g
+s/Austria/オーストリア/g
+s/Bangladesh/バングラデシュ/g
+s/Belarus/ベラルーシ/g
+s/Belgium/ベルギー/g
+s/Brazil/ブラジル/g
+s/Bulgaria/ブルガリア/g
+s/Canada/カナダ/g
+s/China/中国/g
+s/Czech Republic/チェコ/g 
+s/France/フランス/g
+s/Germany/ドイツ/g
+s/Greece/ギリシャ/g
+s/Greenland/グリーンランド/g 
+s/Iceland/アイスランド/g 
+s/India/インド/g
+s/Ireland/アイルランド/g
+s/Israel/イスラエル/g
+s/Italy/イタリア/g
+s/Luxembourg/ルクセンブルク/g
+s/Netherlands/オランダ/g
+s/New Zealand/ニュージーランド/g
+s/Norway/ノルウェー/g
+s/Poland/ポーランド/g
+s/Portugal/ポルトガル/g
+s/Russia/ロシア/g
+s/Serbia/セルビア/g
+s/Singapore/シンガポール/g
+s/Slovakia/スロバキア/g
+s/South Africa/南アフリカ/g
+s/South Korea/韓国/g
+s/Spain/スペイン/g
+s/Sri Lanka/スリランカ/g
+s/Sweden/スウェーデン/g
+s/Switzerland/スイス/g
+s/Taiwan/台湾/g
+s/Ukraine/ウクライナ/g
+s/United Kingdom/イギリス/g 
+s/USA/アメリカ合衆国/g
+# 訳のし過ぎの補正
+s/Western オーストラリアn Internet Association/Western Australian Internet Association/g
+s/Tele グリーンランド/Tele Greenland/g
+s/イスラエル Internet Association/Israel Internet Association/g
+
+s/Upgrade instructions/アップグレード方法/g
+s/Download/ダウンロード/g
+
+# # RC Revire Feedback 
+s/What’s new in Linux Mint 16 Xfce<\/a>“./What’s new in Linux Mint 16 Xfce<\/a>“。/g
+
+# Image Link Location
+s/16_Xfce_release_files\/thumb_xfce.png/http:\/\/www.linuxmint.com\/pictures\/screenshots\/petra\/thumb_xfce.png/g
