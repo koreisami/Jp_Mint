@@ -40,6 +40,8 @@ s/Language Settings/言語設定/g
 s/Other Improvements/その他の改善/g
 s/LTS Strategy/LTS 戦略/g
 s/Out of the box support for Compiz/インストール直後からCompiz が使用可能/g
+s/Compiz in Virtualbox/Virtualbox 上でのCompiz の振る舞いについて/g
+s/Issues with KDE apps/KDE アプリに関する問題/g
 
 # Important info
 s/Important info:/重要な情報:/g
@@ -56,14 +58,15 @@ s/Solving freezes with some NVIDIA GeForce GPUs/NVIDIA GeForce GPUsの環境で�
 s/Booting with non-PAE CPUs/non-PAE のCPUでのブート/g
 s/Issues with Skype/スカイプについての問題/g
 s/Other issues/その他の問題/g
-
+s/Misconfigured Swap when using home directory encryption/ホームディレクトリの同期におけるスワップ領域に関する設定失敗について/g
+s//Virtualbox 上でのCompiz の振る舞いについて/g
 # System required
 s/System requirements:/システム要件:/g
 s/x86 processor/x86 プロセッサ/g 
 s/Linux Mint 64-bit requires a 64-bit processor./Linux Mint 64-bit には 64 ビットプロセッサが必要です。/g
 s/Linux Mint 32-bit works on both 32-bit and 64-bit processors)./Linux Mint 32-bit は 32 ビットと 64 ビットプロセッサの両方で動きます)/g
 s/384 MB RAM (1GB recommended for a comfortable usage)./384 メガバイトのメモリ/g
-s/5 GB of disk space/5 ギガバイトの空きディスク容量/g
+s/GB of disk space/ギガバイトの空きディスク容量/g
 s/Graphics card capable of 800×600 resolution/800×600 の解像度を表示できるグラフィックカード/g
 s/DVD drive or USB port/DVD ドライブ又は USB ポート/g
 s/(1GB recommended for a comfortable usage)./ (快適に使用するためには1 GB 以上が推奨)/g
