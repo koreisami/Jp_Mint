@@ -149,6 +149,8 @@ s/Tele グリーンランド/Tele Greenland/g
 s/イスラエル Internet Association/Israel Internet Association/g
 s/University of Science and Technology of 中国 Linux User Group/University of Science and Technology of China Linux User Group/g
 s/Southern 台湾 University of Science and Technology/Southern Taiwan University of Science and Technology/g
+s/CEDIA エクアドル/CEDIA Ecuador/g
+
 
 s/Upgrade instructions/アップグレード方法/g
 s/Download/ダウンロード/g
@@ -162,4 +164,42 @@ s/16_Xfce_release_files\/thumb_xfce.png/http:\/\/www.linuxmint.com\/pictures\/sc
 # Xfce Description
 s/Xfce is a lightweight desktop environment which aims to be fast and low on system resources, while still being visually appealing and user friendly. /Xfce は高速でシステムリソースを大きく消費しないことを目標にしている軽量のデスクトップ環境です。それにもかかわらず、Xfce は見た目の魅力とユーザの利便性を失っていません。/g
 s/This edition features all the improvements from the latest Linux Mint release on top of an Xfce 4.10 desktop./Xfce 版は Xfce 4.10 に加えて最新の LinuxMint リリースになされた全ての改善が反映されています。/g
+
+# LMDE2 
+s/The team is proud to announce the release of LMDE 2 “Betsy” MATE RC./開発チームは LMDE2 “Betsy” MATE RC 版のリリースについて発表します!/g
+s/The team is proud to announce the release of LMDE 2 &#8220;Betsy&#8221; Cinnamon RC./開発チームは LMDE2 “Betsy” Cinnamon RC 版のリリースについて発表します!/g
+
+# LMDE2 Description
+s/LMDE (Linux Mint Debian Edition) is a very exciting distribution, targeted at experienced users, which provides the same environment as Linux Mint but uses Debian as its package base, instead of Ubuntu./LMDE (Linux Mint Debian Edition) はとてもワクワクするようなディストリビューションです。このディストリビューションは、熟練ユーザ向けです。そして、Linux Mint と同様の環境ですが、Ubuntu ベースではなく Debian ベースです。/g
+
+s/LMDE is less mainstream than Linux Mint, it has a much smaller user base, it is not compatible with PPAs, and it lacks a few features. That makes it a bit harder to use and harder to find help for, so it is not recommended for novice users./LMDE は Linux Mint ほどメインストリームに乗っているわけではありません。これは、Linux Mint に比べユーザが少なく、PPAs にも互換性がなく、また導入している機能が少ないためです。また、若干Linux Mint に比べ使用方法が難しく、助力を得ることも難しいので、一番最初に使うユーザにはLMDE はオススメできません。/g
+
+s/LMDE is however slightly faster than Linux Mint and it runs newer packages. Life on the LMDE side can be exciting./しかしながら、LMDE はLinux より若干軽量で、最新のパッケージが導入されています。また、LMDE 側のソフトウェアの生涯はワクワクするものです。/g
+
+s/There are no point releases in LMDE 2, except for bug fixes and security fixes base packages stay the same, but Mint and desktop components are updated continuously. /まず、LMDE 2上でバグ修正やセキュリティ上の修正以外のリリースはありません。これはベースとなるパッケージが同じであり続けることを意味します。ただし、Mint とデスクトップ環境に関するソフトウェアは継続して更新されます。/g
+
+s/When ready, newly developed features get directly into LMDE 2, whereas they are staged for inclusion on the next upcoming Linux Mint 17.x point release. /新しく開発されたソフトウェアはLMDE 2 では準備された時点で、反映されます。一方、Linux Mint シリーズでは、開発されたソフトウェアは次のLinux Mint 17.x のリリース時に反映されます。/g
+
+s/Consequently, Linux Mint users only run new features when a new point release comes out and they opt-in to upgrade to it./結果として、Linux Mint ユーザは新しいLinux Mint のバージョンのリリース時点で更新を行うという選択をした時のみ、新しいソフトウェアを使用することがでます。/g
+
+
+s/LMDE 2 users don’t have that choice, but they also don’t have to wait for new packages to mature and they usually get to run them first. It’s more risky, but more exciting./LMDE 2 ユーザはLinux Mint のような選択をする必要がありません。新しいパッケージが熟すまで待つ必要がなく、常に先端の状態でソフトウェアを動かすことができます。これは、とてもリスキーですが、とてもワクワクするものです。/g
+
+s/LMDE 2 users don&#8217;t have that choice, but they also don&#8217;t have to wait for new packages to mature and they usually get to run them first. It&#8217;s more risky, but more exciting./LMDE 2 ユーザはLinux Mint のような選択をする必要がありません。新しいパッケージが熟すまで待つ必要がなく、常に先端の状態でソフトウェアを動かすことができます。これは、とてもリスキーですが、とてもワクワクするものです。/g
+
+# LMDE2 Info
+s/Login and password for the live session/ライブセッション時のログイン名とパスワードについて/g
+s/Gtk theme and icons failing to load/Gtk のテーマとアイコンがロードされない場合について/g
+s/Multi-core and multi-CPU support in 32-bit kernel/32 ビットカーネル上でのMulti-core または Multi-CPU のサポートについて/g
+s/Modprobe errors, warning messages during the boot sequence/ブートシークエンス中のModprobe のエラー及び警告メッセージについて/g
+s/Yumi multiboot/Yumi マルチブートについて/g
+
+
+
+
+
+
+
+
+
 
