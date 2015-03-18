@@ -1,0 +1,82 @@
+<html>
+<head><title>Release Note For LMDE2 RC</title></head>
+<body>
+<h1>Known problems in LMDE 2 'Betsy'</h1>
+<h3>
+	Login and password for the live session</h3>
+<p>
+	The Live session should log you in automatically. If it doesn&#39;t, or if you need to login manually, you can use the following credentials:</p>
+<ul>
+	<li>
+		For the username, type &quot;mint&quot;</li>
+	<li>
+		For the password, if asked, just press Enter.</li>
+</ul>
+<h3>
+	<strong>Multi-core and multi-CPU support in 32-bit kernel</strong></h3>
+<p><h1>Known problems in LMDE 2 'Betsy'</h1>
+
+
+<h3>
+	Login and password for the live session</h3>
+<p>
+	The Live session should log you in automatically. If it doesn&#39;t, or if you need to login manually, you can use the following credentials:</p>
+<ul>
+	<li>
+		For the username, type &quot;mint&quot;</li>
+	<li>
+		For the password, if asked, just press Enter.</li>
+</ul>
+<h3>
+	<strong>Multi-core and multi-CPU support in 32-bit kernel</strong></h3>
+<p>
+	To guarantee compatibility with non-PAE processors, the 32-bit versions of Linux Mint Debian come with a 586 kernel by default. This kernel does not support SMP, and as a consequence is only able to detect one core and one CPU. If your CPU has multiple cores, or if you have more than one CPU, simply install the 686-PAE kernel and reboot your computer.<br />
+	<strong> </strong></p>
+<p>
+	Type the following commands and reboot the computer:</p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt update</code></strong></span></p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt install linux-headers-686-pae linux-image-686-pae</code></strong></span></p>
+<h3>
+	GTK theme and icons fail to load</h3>
+<p>
+	Sometimes the MATE session fails to theme itself properly and shows up with ugly looking panels and icons. This is due to a race condition with MDM and it usually only happens in live mode. There are a number of workarounds for this. If it happens rarely, simply retheme the session by typing &quot;mate-settings-daemon&quot; and &quot;killall caja&quot;. If the problem persists, you can add a &quot;killall gnome-settings-daemon&quot; and a &quot;killall mate-settings-daemon&quot; in the PreSession&#39;s default script for MDM. Alternatively you can switch to GDM3. Note that users reported similar issues between GDM and Gnome and even LightDM and Unity.</p>
+<p>
+	To find out more about this issue, refer to the following <a href="https://bugs.launchpad.net/gnome-settings-daemon/+bug/649809">bug report</a>.</p>
+<h3>
+	Modprobe errors, warning messages during the boot sequence</h3>
+<p>
+	The errors and warnings which appear in the boot sequence (especially the ones related to modprobe and mounts in the live boot sequence) are cosmetic bugs and can be ignored.</p>
+<h3>
+	Yumi multiboot</h3>
+<p>
+	The LMDE ISOs and the live installer use a different structure than the ones used by other distributions. Please do not use Yumi or multiboot technologies with LMDE as it won&#39;t install properly.</p>
+</div>
+
+	To guarantee compatibility with non-PAE processors, the 32-bit versions of Linux Mint Debian come with a 586 kernel by default. This kernel does not support SMP, and as a consequence is only able to detect one core and one CPU. If your CPU has multiple cores, or if you have more than one CPU, simply install the 686-PAE kernel and reboot your computer.<br />
+	<strong> </strong></p>
+<p>
+	Type the following commands and reboot the computer:</p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt update</code></strong></span></p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt install linux-headers-686-pae linux-image-686-pae</code></strong></span></p>
+<h3>
+	GTK theme and icons fail to load</h3>
+<p>
+	Sometimes the MATE session fails to theme itself properly and shows up with ugly looking panels and icons. This is due to a race condition with MDM and it usually only happens in live mode. There are a number of workarounds for this. If it happens rarely, simply retheme the session by typing &quot;mate-settings-daemon&quot; and &quot;killall caja&quot;. If the problem persists, you can add a &quot;killall gnome-settings-daemon&quot; and a &quot;killall mate-settings-daemon&quot; in the PreSession&#39;s default script for MDM. Alternatively you can switch to GDM3. Note that users reported similar issues between GDM and Gnome and even LightDM and Unity.</p>
+<p>
+	To find out more about this issue, refer to the following <a href="https://bugs.launchpad.net/gnome-settings-daemon/+bug/649809">bug report</a>.</p>
+<h3>
+	Modprobe errors, warning messages during the boot sequence</h3>
+<p>
+	The errors and warnings which appear in the boot sequence (especially the ones related to modprobe and mounts in the live boot sequence) are cosmetic bugs and can be ignored.</p>
+<h3>
+	Yumi multiboot</h3>
+<p>
+	The LMDE ISOs and the live installer use a different structure than the ones used by other distributions. Please do not use Yumi or multiboot technologies with LMDE as it won&#39;t install properly.</p>
+</body>
+</head>
+
+

@@ -1,0 +1,46 @@
+<html>
+<head><title>Release Note For LMDE2 RC</title></head>
+<body>
+<h1>LMDE 2 'Betsy'について既知の情報・問題</h1>
+<h3>
+	ライブセッション時のログイン名とパスワードについて</h3>
+<p>
+	ライブ起動時自動でログインされるべきです。しかし、もし自動でログインされない、または、手動でログインが必要な場合, あなたは以下の情報を用いて認証をすることができます。:</p>
+<ul>
+	<li>
+		ユーザ名 : &quot;mint&quot;</li>
+	<li>
+		パスワードは、もし尋ねられたら、何も入力せずにエンターボタンを押してください。</li>
+</ul>
+<h3>
+<strong>32 ビットカーネル上でのMulti-core または Multi-CPU のサポートについて</strong></h3>
+<p>
+	non-PAE プロセッサ上での互換性を保証するために, 32 ビット版の Linux Mint Debian は初期状態で 586 向けのカーネルになっています。このカーネルは SMP をサポートせずに, シングルコアまたは、CPU が１つの環境に調整されています。 もし、Multi-core または Multi-CPU の環境の場合 686-PAE カーネルを簡単にインストールでき、再起動後に利用可能になります。<br />
+<strong> </strong></p>
+<p>
+	次のコマンドを入力後、再起動で利用できます。:</p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt update</code></strong></span></p>
+<p style="margin-left: 40px;">
+	<span style="font-size:11px;"><strong><code>apt install linux-headers-686-pae linux-image-686-pae</code></strong></span></p>
+<h3>
+	Gtk のテーマとアイコンがロードされない場合について</h3>
+<p>
+	時々、MATEセッションが テーマが読み込めず、アイコンやパネルが表示されない場合があります。 これはMDMで競合が起きてしまった場合に発生し、ライブモードにのみ発生します。 これには多くの回避策があります。 もし、この現象が稀にのみ発生する場合は、コンソール上で、&quot;mate-settings-daemon&quot; と &quot;killall caja&quot;を入力し、テーマを再構成させることで回避できます。もし、この現象が継続的に発生する場合は、MDMの起動時の初期スクリプトに &quot;killall gnome-settings-daemon&quot; と &quot;killall mate-settings-daemon&quot; を追加することで回避できます。 代替案として GDM3 に乗り換える方法もあります。あるユーザレポートによれば、 Gnome と GDM 間及び、LightDM と Unity 間でも同様な問題が発生しているとのことです。</p>
+<p>
+	この問題に関してはより詳細な情報が必要な場合は、次を参照してください：<a href="https://bugs.launchpad.net/gnome-settings-daemon/+bug/649809">バグレポート</a>。</p>
+<h3>
+	ブートシークエンス中の Modprobe のエラー及び警告メッセージについて</h3>
+<p>
+	ブートシークエンス中の (特に、ライブブート中のマウントや Modprobe に関連する) エラーと警告 は表面上のバグなので無視することができます。</p>
+<h3>
+	Yumi マルチブートについて</h3>
+<p>
+	LMDE のISO イメージ及び、ライブインストーラは他のディストリビューションと異なるものを使用しているため、Yumi や他のマルチブート環境で LMDE を使用しないでください。おそらく、適正にインストールできないでしょう。</p>
+</div>
+
+
+</body>
+</head>
+
+
