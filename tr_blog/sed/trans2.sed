@@ -4,10 +4,12 @@
 # Linux Mint 17.3 Later
 
 # Title
+s/released!/がリリースされました!/g
 s/&#8211; BETA Release/のベータ版がリリースされました!/g
 
 # Release 
 s/This is the BETA release for Linux Mint /開発チームは Linux Mint/g
+s/The team is proud to announce the release of Linux Mint/開発チームは Linux Mint/g
 s/Edition./のベータ版のリリースについて発表します!/g
 
 # Image Caption
@@ -110,6 +112,7 @@ s/Vietnam/ベトナム/g
 s/Latvia/ラトビア/g
 s/Turkey/トルコ/g
 s/Thailand/タイ/g
+s/Hong Kong/香港/g
 
 # 訳のし過ぎの補正
 s/Western オーストラリアn Internet Association/Western Australian Internet Association/g
@@ -127,4 +130,18 @@ s/Many thanks in advance for testing the BETA!/ベータ版テストへの多く
 
 s/&#8220;/"/g
 s/&#8221;/"/g
+
+s/To upgrade from the BETA, simply launch the Update Manager and install any Level 1 update available./BETA 版からアップグレードする場合はUpdate Manager のレベル1と2を有効にしてください。/g
+
+s/Alternative downloads/その他のイメージ/g
+s/No-codecs images/コーデックを含まないイメージ/g
+
+s/Distributors and magazines in Japan, アメリカ合衆国 and countries where distributing media codecs is problematic can use the "No Codecs" ISO images.  These images will be made available next week in 32-bit and 64-bit at the following address:/日本やアメリカ合衆国等のメディアコーデックを配布することに問題がある国でイメージの配布や雑誌の発行を行う方は “コーデックを含まない” ISO イメージを利用してください。 32-bit と 64-bit 版の MATE と Cinnamon エディションでは、このイメージが以下のアドレスに用意される予定です:/g
+s/OEM images/OEM イメージ/g
+s/Manufacturers can pre-install Linux Mint on their computers using the OEM installation images. These images will be made available next week, for both the MATE and Cinnamon edition in 64-bit at the following address:/メーカーが Linux Mint をプリインストールしたコンピュータを製造する場合は OEM インストールイメージを利用してください。64-bit 版の MATE とCinnamon エディションでは、このイメージが来週までに以下のアドレスに用意される予定です:/g
+s/To upgrade from Linux Mint 17, 17.1 or 17.2, please wait for a few days while we release a new version of the Update Manager to you. In the meantime, you do not need to download or to reinstall anything. We’ll make announcements next week when this is ready./Linux Mint 17, 17.1 または、17.2 からアップデートする場合は、アップデートマネージャの新バージョンがリリースされるまでお待ちください。その間, 何かダウンロードしたり再インストールを行う必要がありません。準備が完了いたしました時点でアナウンスさせていただきます。/g
+
+
+s/Thank you for using Linux Mint and have a lot of fun with this new release!/Linux Mint のご利用ありがとうございます。新しい Linux Mint をお楽しみください!/g
+
 
