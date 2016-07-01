@@ -17,6 +17,8 @@ s/のベータ版のリリースについて発表します!br/エディショ�
 
 # Long Term Release
 s/is a long term support release which will be supported until 2019. It comes with updated software and brings refinements and many new features to make your desktop even more comfortable to use./は長期サポートリリースで、2019 年までサポートされます。 このバージョンでは快適に使用していただけるために、多くの更新や改善を受けることができます。/g
+s/is a long term support release which will be supported until 2021. It comes with updated software and brings refinements and many new features to make your desktop even more comfortable to use./は長期サポートリリースで、2021 年までサポートされます。 このバージョンでは快適に使用していただけるために、多くの更新や改善を受けることができます。/g
+
 
 # New Feature
 s/New features:/新機能:/g
@@ -38,7 +40,7 @@ s/DVD drive or USB port/DVD ドライブ又は USB ポート/g
 
 s/Notes:/ノート:/g
 s/The 64-bit ISO can boot with BIOS or UEFI./64ビット版 ISO イメージは BIOS または UEFIからのブートが可能です。/g
-s/The 32-bit ISO can only boot with BIOS./32ビット版 ISO イメージは BIOS　からのブートのみ可能です。/g
+s/The 32-bit ISO can only boot with BIOS./32ビット版 ISO イメージは BIOS からのブートのみ可能です。/g
 s/The 64-bit ISO is recommend for all modern computers (Almost all computers sold in the last 10 years are equipped with 64-bit processors)./現役の主なるコンピュータで使用される場合は 64 ビット版のイメージの使用を推奨します。(大抵の過去10年間に販売されたPCは 64 ビットを対応したCPUを装着しているはずです。)/g
 
 s/Upgrade instructions:/アップグレードに関する情報/g
@@ -49,14 +51,26 @@ s/and to help the Linux Mint team fix issues prior to the stable release./また
 s/It will be possible to upgrade from this BETA to the stable release./ベータ版から安定版へのアップグレードは可能になる予定です。/g
 
 s/It will also be possible to upgrade from Linux Mint 17, 17.1 and 17.2./Linux Mint 17、17.1 及び 17.2 からのアップグレードも可能になる予定です。/g
+s/It will also be possible to upgrade from Linux Mint 17.3./Linux Mint 17.3 からのアップグレードも可能になる予定です。/g
 s/Upgrade instructions will be published next month after the stable release of Linux Mint 17.3./来月の Linux Mint 17.3 安定版がリリースされた後に、これらのバージョンからの更新方法を発表する予定です。/g
+s/Upgrade instructions will be published next month after the stable release of Linux Mint 18./来月の Linux Mint 18 安定版がリリースされた後に、これらのバージョンからの更新方法を発表する予定です。/g
 
 s/Bug reports:/バグ報告:/g
 s/Please report bugs below in the comment section of this blog./このブログの下のコメント欄にバグを報告して下さい。/g
 s/Please visit/ベータ版と安定版リリースの間の開発チームの進捗状況をフォローするには、/g
 s/to follow the progress of the development team between the BETA and the stable release./を見てください。/g
 
+s/When reporting bugs, please be as accurate as possible and include any information that might help developers reproduce the issue or understand the cause of the issue/バグを報告するとき、できるだけ正確に記してください。また、デベロッパが問題を再現させ、問題点の原因を理解するために、出きるだけの情報を記してください/g
+s/Bugs we can reproduce, or which cause we understand are usually fixed very easily./バグが再現でき。原因を理解できたならば、たいていそのバグは簡単に修正することができます。/g
+s/It is important to mention whether a bug happens "always", or "sometimes", and what triggers it./そのバグがいつも発生するのか、時々発生するのか、またそのバグのトリガーは何かを記すことは重要なことです。/g
+
+s/If a bug happens but didn’t happen before, or doesn’t happen in another distribution, or doesn’t happen in a different environment, please mention it and try to pinpoint the differences at play./もし、バグが過去発生せずに現在は発生する、他のディストリビューションでは発生しない、他の環境では起きないと言うことがありましたら、動作上の違いを明確に記してください。/g
+s/If we can’t reproduce a particular bug and we don’t understand its cause, it’s unlikely we’ll be able to fix it./もし、バグが際限できず、原因が分からない場合、そのバグが修正される見込みはありません。/g
+
+
 s/Direct download/ダウンロード/g
+s/Download links/ダウンロードリンク/g
+s/Here are the download links for the 64-bit ISO:/64 ビット版ISOイメージのダウンロードリンク: /g
 
 # mirror
 # mirror
@@ -122,6 +136,7 @@ s/University of Science and Technology of 中国 Linux User Group/University of 
 s/Southern 台湾 University of Science and Technology/Southern Taiwan University of Science and Technology/g
 s/CEDIA エクアドル/CEDIA Ecuador/g
 s/University of ラトビア/University of Latvia/g
+s/UPC オーストリア/UPC Australia/g
 
 s/Signatures (to verify your downloaded ISO)/シグネチャー（ダウンロードしたファイルの照合に使用してください）/g
 s/Enjoy!/お楽しみください!/g
@@ -141,7 +156,22 @@ s/OEM images/OEM イメージ/g
 s/Manufacturers can pre-install Linux Mint on their computers using the OEM installation images. These images will be made available next week, for both the MATE and Cinnamon edition in 64-bit at the following address:/メーカーが Linux Mint をプリインストールしたコンピュータを製造する場合は OEM インストールイメージを利用してください。64-bit 版の MATE とCinnamon エディションでは、このイメージが来週までに以下のアドレスに用意される予定です:/g
 s/To upgrade from Linux Mint 17, 17.1 or 17.2, please wait for a few days while we release a new version of the Update Manager to you. In the meantime, you do not need to download or to reinstall anything. We’ll make announcements next week when this is ready./Linux Mint 17, 17.1 または、17.2 からアップデートする場合は、アップデートマネージャの新バージョンがリリースされるまでお待ちください。その間, 何かダウンロードしたり再インストールを行う必要がありません。準備が完了いたしました時点でアナウンスさせていただきます。/g
 
+s/A 32-bit ISO image is also available at/32 ビット版のISO イメージは、次のリンクより使用可能です: /g
+s/Once you have downloaded an image, please verify its integrity and authenticity./ダウンロードが完了しましたら、完全性と信頼性の検証を行ってください。/g
+
+s/Integrity and authenticity checks/完全性と信頼性のチェック/g
+s/Anyone can produce fake ISO images, /誰でも偽造のISO イメージが作成できてしまうため、/g
+s/it is your responsibility to check you are downloading the official ones./公式のISO イメージをダウンロードしたかどうかのチェックは、あなた自身で行う必要があります。/g
+s/Please read and follow the steps at/実施は次のページのステップに従ってください。/g
+s/Link to the sums/チェックサム/g
+s/Link to the signed sums/署名されたチェックサム/g
 
 s/Thank you for using Linux Mint and have a lot of fun with this new release!/Linux Mint のご利用ありがとうございます。新しい Linux Mint をお楽しみください!/g
+
+
+s/on lower resolutions, press ALT to drag windows with the mouse if they don't fit in the screen/低解像度でもしスクリーンに合わない場合は、マウスでALTを押しながらウインドウをドラッグさせてください/g
+s/resolution/解像度。/g
+s/If you are running the BETA, click the refresh button in your Update Manager and apply any outstanding level 1 updates. Note also that samba was removed in the stable release as it negatively impacted boot speed. To remove samba, open a terminal and type/もしベータ版をご利用の方は、アップデートマネージャの更新ボタンを押し、レベル１の更新を適用させることで入手できます。安定版ではベータ版に入っていた samba が削除されています。その理由は、システムの起動スピードに悪影響を与えていました。もし、samba を削除したい場合は、次のコマンドをターミナル上で入力してください：/g
+s/Upgrade instructions will be published next month./更新の手順は来月発行される予定です。/g
 
 
