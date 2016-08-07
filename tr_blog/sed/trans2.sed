@@ -173,5 +173,5 @@ s/on lower resolutions, press ALT to drag windows with the mouse if they don't f
 s/resolution/解像度。/g
 s/If you are running the BETA, click the refresh button in your Update Manager and apply any outstanding level 1 updates. Note also that samba was removed in the stable release as it negatively impacted boot speed. To remove samba, open a terminal and type/もしベータ版をご利用の方は、アップデートマネージャの更新ボタンを押し、レベル１の更新を適用させることで入手できます。安定版ではベータ版に入っていた samba が削除されています。その理由は、システムの起動スピードに悪影響を与えていました。もし、samba を削除したい場合は、次のコマンドをターミナル上で入力してください：/g
 s/Upgrade instructions will be published next month./更新の手順は来月発行される予定です。/g
-
+s/If you are running Linux Mint 17, 17.1, 17.2 or 17.3, please follow/Linux Mint 17, 17.1, 17.2, 17.3 をご利用の方は、アップグレードに関しては次のページを参照してください：/g
 
