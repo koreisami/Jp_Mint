@@ -8,8 +8,8 @@ s/released!/がリリースされました!/g
 s/&#8211; BETA Release/のベータ版がリリースされました!/g
 
 # Release 
-s/This is the BETA release for Linux Mint /開発チームは Linux Mint/g
-s/The team is proud to announce the release of Linux Mint/開発チームは Linux Mint/g
+s/This is the BETA release for Linux Mint /開発チームは Linux Mint /g
+s/The team is proud to announce the release of Linux Mint/開発チームは Linux Mint /g
 s/Edition./のベータ版のリリースについて発表します!/g
 
 # Image Caption
@@ -53,19 +53,23 @@ s/It will be possible to upgrade from this BETA to the stable release./ベータ
 s/It will also be possible to upgrade from Linux Mint 17, 17.1 and 17.2./Linux Mint 17、17.1 及び 17.2 からのアップグレードも可能になる予定です。/g
 s/It will also be possible to upgrade from Linux Mint 17.3./Linux Mint 17.3 からのアップグレードも可能になる予定です。/g
 s/Upgrade instructions will be published next month after the stable release of Linux Mint 17.3./来月の Linux Mint 17.3 安定版がリリースされた後に、これらのバージョンからの更新方法を発表する予定です。/g
+s/Upgrade instructions will be published next month after the stable release of Linux Mint 18.1./来月の Linux Mint 18.1 安定版がリリースされた後に、これらのバージョンからの更新方法を発表する予定です。/g
 s/Upgrade instructions will be published next month after the stable release of Linux Mint 18./来月の Linux Mint 18 安定版がリリースされた後に、これらのバージョンからの更新方法を発表する予定です。/g
 
 s/Bug reports:/バグ報告:/g
-s/Please report bugs below in the comment section of this blog./このブログの下のコメント欄にバグを報告して下さい。/g
+s/Please report bugs below in the comment section of this blog./次のブログのコメント欄にバグを報告して下さい。/g
 s/Please visit/ベータ版と安定版リリースの間の開発チームの進捗状況をフォローするには、/g
 s/to follow the progress of the development team between the BETA and the stable release./を見てください。/g
 
 s/When reporting bugs, please be as accurate as possible and include any information that might help developers reproduce the issue or understand the cause of the issue/バグを報告するとき、できるだけ正確に記してください。また、デベロッパが問題を再現させ、問題点の原因を理解するために、出きるだけの情報を記してください/g
 s/Bugs we can reproduce, or which cause we understand are usually fixed very easily./バグが再現でき。原因を理解できたならば、たいていそのバグは簡単に修正することができます。/g
 s/It is important to mention whether a bug happens "always", or "sometimes", and what triggers it./そのバグがいつも発生するのか、時々発生するのか、またそのバグのトリガーは何かを記すことは重要なことです。/g
+s/It is important to mention whether a bug happens always, or sometimes, and what triggers it./そのバグがいつも発生するのか、時々発生するのか、またそのバグのトリガーは何かを記すことは重要なことです。/g
+
 
 s/If a bug happens but didn’t happen before, or doesn’t happen in another distribution, or doesn’t happen in a different environment, please mention it and try to pinpoint the differences at play./もし、バグが過去発生せずに現在は発生する、他のディストリビューションでは発生しない、他の環境では起きないと言うことがありましたら、動作上の違いを明確に記してください。/g
-s/If we can’t reproduce a particular bug and we don’t understand its cause, it’s unlikely we’ll be able to fix it./もし、バグが際限できず、原因が分からない場合、そのバグが修正される見込みはありません。/g
+s/If a bug happens but didnt happen before, or doesnt happen in another distribution, or doesnt happen in a different environment, please mention it and try to pinpoint the differences at play./もし、バグが過去発生せずに現在は発生する、他のディストリビューションでは発生しない、他の環境では起きないと言うことがありましたら、動作上の違いを明確に記してください。/g
+s/If we cant reproduce a particular bug and we dont understand its cause, its unlikely well be able to fix it./もし、バグが再現できず、原因が分からない場合、そのバグが修正される見込みはありません。/g
 
 
 s/Direct download/ダウンロード/g
@@ -127,6 +131,8 @@ s/Latvia/ラトビア/g
 s/Turkey/トルコ/g
 s/Thailand/タイ/g
 s/Hong Kong/香港/g
+s/World/グローバル/g
+s/Hungary/ハンガリー/g
 
 # 訳のし過ぎの補正
 s/Western オーストラリアn Internet Association/Western Australian Internet Association/g
@@ -174,4 +180,7 @@ s/resolution/解像度。/g
 s/If you are running the BETA, click the refresh button in your Update Manager and apply any outstanding level 1 updates. Note also that samba was removed in the stable release as it negatively impacted boot speed. To remove samba, open a terminal and type/もしベータ版をご利用の方は、アップデートマネージャの更新ボタンを押し、レベル１の更新を適用させることで入手できます。安定版ではベータ版に入っていた samba が削除されています。その理由は、システムの起動スピードに悪影響を与えていました。もし、samba を削除したい場合は、次のコマンドをターミナル上で入力してください：/g
 s/Upgrade instructions will be published next month./更新の手順は来月発行される予定です。/g
 s/If you are running Linux Mint 17, 17.1, 17.2 or 17.3, please follow/Linux Mint 17, 17.1, 17.2, 17.3 をご利用の方は、アップグレードに関しては次のページを参照してください：/g
+
+
+s/It will also be possible to upgrade from Linux Mint 18./Linux Mint 18 からの更新が可能になる予定です。/g
 
