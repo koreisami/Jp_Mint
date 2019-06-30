@@ -1,7 +1,10 @@
 # This SED file's objective is automatically translation linux mint Xfce new release 
 # This Script author is SAWAKAZE(souichirho@gmail.com)
 # Version 2
-# Linux Mint 17.3 Later
+# Linux Mint 19 Later
+
+# update 2019.6.30
+# Linux Mint 19.1 向け
 
 # Title
 s/released!/がリリースされました!/g
@@ -9,8 +12,7 @@ s/&#8211; BETA Release/のベータ版がリリースされました!/g
 
 # Release 
 s/This is the BETA release for Linux Mint /開発チームは Linux Mint /g
-s/The team is proud to announce the release of Linux Mint/開発チームは Linux Mint /g
-s/Edition./のベータ版のリリースについて発表します!/g
+s/Edition./エディション /g
 
 # Image Caption
 s/のベータ版のリリースについて発表します!br/エディション<br/g
@@ -42,6 +44,7 @@ s/Notes:/ノート:/g
 s/The 64-bit ISO can boot with BIOS or UEFI./64ビット版 ISO イメージは BIOS または UEFIからのブートが可能です。/g
 s/The 32-bit ISO can only boot with BIOS./32ビット版 ISO イメージは BIOS からのブートのみ可能です。/g
 s/The 64-bit ISO is recommend for all modern computers (Almost all computers sold in the last 10 years are equipped with 64-bit processors)./現役の主なるコンピュータで使用される場合は 64 ビット版のイメージの使用を推奨します。(大抵の過去10年間に販売されたPCは 64 ビットを対応したCPUを装着しているはずです。)/g
+s/The 64-bit ISO is recommended for all modern computers/現役の主なるコンピュータで使用される場合は 64 ビット版のイメージの使用が推奨されます/g
 
 s/Upgrade instructions:/アップグレードに関する情報/g
 s/This BETA release might contain critical bugs,/このベータ版には致命的なバグが含まれている可能性があります。/g
@@ -133,6 +136,10 @@ s/Thailand/タイ/g
 s/Hong Kong/香港/g
 s/World/グローバル/g
 s/Hungary/ハンガリー/g
+s/Iran/イラン/g
+s/Malaysia/マレーシア/g
+s/Botswana/ボツワナ/g
+s/Kenya/ケニア/g
 
 # 訳のし過ぎの補正
 s/Western オーストラリアn Internet Association/Western Australian Internet Association/g
@@ -143,6 +150,9 @@ s/Southern 台湾 University of Science and Technology/Southern Taiwan Universit
 s/CEDIA エクアドル/CEDIA Ecuador/g
 s/University of ラトビア/University of Latvia/g
 s/UPC オーストリア/UPC Australia/g
+s/Universidad Central del エクアドル/Universidad Central del Ecuador/g
+s/Universiti Teknologi マレーシア/Universiti Teknologi Malaysia/g
+s/Telekom ルーマニア/Telekom Romania/g
 
 s/Signatures (to verify your downloaded ISO)/シグネチャー（ダウンロードしたファイルの照合に使用してください）/g
 s/Enjoy!/お楽しみください!/g
@@ -175,7 +185,7 @@ s/Link to the signed sums/署名されたチェックサム/g
 s/Thank you for using Linux Mint and have a lot of fun with this new release!/Linux Mint のご利用ありがとうございます。新しい Linux Mint をお楽しみください!/g
 
 
-s/on lower resolutions, press ALT to drag windows with the mouse if they don't fit in the screen/低解像度でもしスクリーンに合わない場合は、マウスでALTを押しながらウインドウをドラッグさせてください/g
+s/on lower resolutions, press ALT to drag windows with the mouse if they don't fit in the screen/低解像度で、もしスクリーンに合わない場合は、マウスでALTを押しながらウインドウをドラッグさせてください/g
 s/resolution/解像度。/g
 s/If you are running the BETA, click the refresh button in your Update Manager and apply any outstanding level 1 updates. Note also that samba was removed in the stable release as it negatively impacted boot speed. To remove samba, open a terminal and type/もしベータ版をご利用の方は、アップデートマネージャの更新ボタンを押し、レベル１の更新を適用させることで入手できます。安定版ではベータ版に入っていた samba が削除されています。その理由は、システムの起動スピードに悪影響を与えていました。もし、samba を削除したい場合は、次のコマンドをターミナル上で入力してください：/g
 s/Upgrade instructions will be published next month./更新の手順は来月発行される予定です。/g
@@ -183,4 +193,20 @@ s/If you are running Linux Mint 17, 17.1, 17.2 or 17.3, please follow/Linux Mint
 
 
 s/It will also be possible to upgrade from Linux Mint 18./Linux Mint 18 からの更新が可能になる予定です。/g
+
+# Linux Mint 19 対応
+
+s/2GB recommended for a comfortable usage/満足な使用のためには、メモリが2GB以上が推奨されます/g
+
+s/Almost all computers sold since 2007 are equipped with 64-bit processors/2007年以降に発売されたたいていのコンピュータです/g
+s/Linux Mint 19 is a long term support release which will be supported until 2023. /Linux Mint 19 は長期リリースバージョンで2023年までサポートされます。/g
+
+# Linux Mint 19.1 対応
+s/Linux Mint 19.1 is a long term support release which will be supported until 2023. /Linux Mint 19.1 は長期リリースバージョンで2023年までサポートされます。/g
+
+s/It comes with updated software and brings refinements and many new features to make your desktop even more comfortable to use./サポート期間内は、ソフトウェアの更新、改良、新しいソフトウェアが提供されます。そして、より良いデスクトップ環境を使用していただけると思います。/g
+
+s/Announcements will be made shortly with instructions on how to upgrade from Linux Mint 18.3./Linux Mint 18.3 からの更新方法の手順がアナウンスされています。/g
+s/Announcements will be made shortly with instructions on how to upgrade from Linux Mint 19./Linux Mint 19 からの更新方法の手順がアナウンスされています。/g
+s/If you are running the BETA, perform a system snapshot, use the Update Manager to apply available updates, run the following commands and reboot/もし、ベータバージョンを使用し、システムスナップショットを使用し、アップデートマネージャで更新を行う場合、次のコマンドを実行し、システムの再起動を行ってください。/g
 
